@@ -10,6 +10,7 @@ import cn.lvhaosir.design.patterns.proxy.staticproxy.Person;
  * @date 2021/4/13
  */
 public class Customer implements Person {
+    @Override
     public void findLove() {
         System.out.println("高富帅、无敌颜值");
     }
